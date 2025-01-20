@@ -1,0 +1,55 @@
+what are HTTP headers
+metadata ...> key-value sent along with request & response
+
+application --> caching,authentucation,manage state
+
+.Request Headers ---> from client
+.Response Headers ---> from server
+.Representation Headers ---> encoding/ compression
+.Payload Headers ----> data
+
+
+Most common Headers
+. Accept : application/json
+.User-Agent
+.Content-type
+.Cookie
+.Cache-Control
+.Authorization
+
+Cors ...>
+Access - Control-Allow-Origin
+Access-control-allow-Credentials
+Access-Control-Allow-Method
+
+
+Security
+
+Cross-Origin-Embedders-Policy
+Cross-origin-Opera-Policy
+Content-Security-Policy
+x-xss - Protection
+
+
+HTTP methods
+
+Basic set of operations that can be used to internet with server
+
+. GET : retrieve a response
+. HEAD : NO message body(response headers only)
+. OPTIONS: what operations are available
+. TRACE : loopback test(got some data)
+. DELETE : remove a resource
+. PUT : replace a resource
+.POST : interact with response  (mostly add)
+.PATCH : change part of resource
+
+
+HTTP Status code
+. 1xx Informational
+.2xx Success
+.3xx Redirection
+. 4xx Client Error
+. 5XX Server error
+
+
